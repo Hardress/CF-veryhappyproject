@@ -36,7 +36,18 @@ h2, p {
 
 a {
     font-family: 'Poiret One', cursive;
+    color: #000;
+
+    &:visited {
+        color: #F5FCFF;
+      }
+   
+      &:hover {
+        color: #494747;
+      }
+
 }
+
 
 p, span, strong {
     text-decoration: none;
