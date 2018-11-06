@@ -114,6 +114,26 @@ ul a {
     
 }
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+@media only screen and (max-width:48em) { 
+	.navbar-nav a {
+        color: black;
+    }
+
+    #navbarSupportedContent {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    nav div {
+        display: inline-block;
+    }
+}
+
 
 /* footer */
 
@@ -147,6 +167,7 @@ td {
 
 .form {
     margin: 3rem;
+    display: block;
 }
 
 .form-group {
@@ -154,8 +175,22 @@ td {
     display: contents;
 }
 
+.form-group label {
+    text-align: left;
+}
+
 .form-control {
     margin: 0.5rem;
+}
+
+#email, #name {
+    width: 25%;
+}
+
+@media only screen and (max-width:48em) { 
+	#email, #name {
+        width: 100%;
+    }
 }
 
 label {
@@ -231,6 +266,12 @@ label {
     color: black;
 }
 
+/* Product */
+
+ .btn {
+    color: black !important;
+}
+
 /* Product corner cut */
 
 .cut {
@@ -245,4 +286,16 @@ label {
         5% 100%,   /* bottom left */
         0 100%      /* bottom left */
       );
+  }
+
+  /* orders */
+
+  .order {
+      display: inline-block;
+  }
+
+  .order-item {
+    background-color: #e3f131e8;
+    margin: 1rem;
+    
   }
