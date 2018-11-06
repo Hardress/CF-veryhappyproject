@@ -37,15 +37,10 @@ h2, p {
 a {
     font-family: 'Poiret One', cursive;
     color: #000;
+}
 
-    &:visited {
-        color: #F5FCFF;
-      }
-   
-      &:hover {
-        color: #494747;
-      }
-
+a:hover {
+    color: #494747;
 }
 
 
@@ -87,7 +82,7 @@ nav li {
 }
 
 ul a {
-    color: #101010;
+    color: #F5FCFF;
 }
 
 .nav-item a {
