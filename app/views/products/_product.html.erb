@@ -4,7 +4,7 @@
             <div class = 'product-title'>
                 <%= link_to product.name, product %>
             </div>
-            <%= image_tag(product.image_url, class: "img-fluid") if product.image_url %>
+            <%= image_tag(product.image_url, class: "img-fluid jump") if product.image_url %>
             <p> Description: <%= product.description %></p>
             <p> Colour: <%= product.colour %></p>
             <p> Price: $ <%= product.price %></p>

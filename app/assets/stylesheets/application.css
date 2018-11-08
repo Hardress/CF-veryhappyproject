@@ -220,6 +220,25 @@ label {
     padding-bottom: 40%;
 }
 
+.about-desc {
+    width: 40%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #e3f131e8;
+}
+
+@media only screen and (max-width:64em) { 
+	.about-desc {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:27em) { 
+	.about-desc {
+        width: 91%;
+    }
+}
+
 #page-title {
     margin: 3rem;
     color: #F5FCFF;

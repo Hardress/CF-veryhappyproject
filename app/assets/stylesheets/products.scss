@@ -22,6 +22,19 @@
     background-color: #eef7fb;
 }
 
+.product-box img {
+    transition: transform .2s ease-out 0s,-webkit-transform .2s ease-out 0s;
+    transition-property: transform, -webkit-transform;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: ease-out, ease-out;
+    transition-delay: 0s, 0s;
+}
+
+.product-box:hover img {
+    transform: translate(0, -3%);
+}
+
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -38,9 +51,6 @@
 
 .show {
     background-color: #ffffff;
-    border-radius: 0.5rem;
-    padding: 2rem;
-    padding-top: 4rem;
     margin-top: 1rem;
 }
 
@@ -52,10 +62,8 @@
     display: block;
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #0000003d;
     background-color: #e3f131e8;
     margin: 10%;
-    border-radius: 1rem;
 }
 
 .show-product {

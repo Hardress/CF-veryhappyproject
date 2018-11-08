@@ -1,4 +1,4 @@
-<div class="container show">
+<div class="container show cut">
   <div class="row" data-product-id="<%= @product.id %>">
   <% cache @product do %>
     <% cache @product do %>
@@ -36,7 +36,7 @@
       </div>
       </div>
 
-      <div class="comments">
+      <div class="comments cut">
         <div>
         <%= render "new_comment" %>
         </div>
